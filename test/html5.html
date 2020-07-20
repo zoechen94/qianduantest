@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html5学习</title>
+        <style>
+            p.sister{
+                text-indent: 1%;
+                word-spacing: 50px;
+                letter-spacing: 3px;
+            }
+          ul  li{
+                list-style: inside square url('/Users/yalan/Desktop/html/test.jpg')  ;
+            }
+           
+        </style>
+    </head>
+    <!-- 拖放 ，拖放是一种常见的特性，即才去兑现过以后脱到另一个位置，任何元素都能够拖放-->
+    <body>
+      <button onclick="add1()">加1</button>
+      <div >
+         <span id="inner">dfd</span>
+         <p class="sister">欢 迎 参 加 乘风破浪的姐姐,你说呢，hello my name is </p>
+      </div>
+      <div>
+          <ul>
+              <li>milk</li>
+              <li>bread</li>
+              <li>juice</li>
+          </ul>
+          <ol>
+              <li>get up</li>
+              <li>wear clothes</li>
+              <li>open door</li>
+          </ol>
+          <dl>
+              <dt>book</dt>
+              <dd>亚里士多德</dd>
+              <dt>garden</dt>
+              <dd>苏州园林</dd>
+          </dl>
+      </div>
+    </body>
+    <script type="text/javascript">
+    function add1(){
+        sessionStorage.lastname="Smith";
+        if(sessionStorage.number>0){
+            sessionStorage.number=Number(sessionStorage.number) +1;
+        }else{
+            sessionStorage.number=1
+        }
+        alert("number:"+sessionStorage.number);
+    }
+        
+        </script>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form表单</title>
+</head>
+
+<body>
+    <!-- 表单元素 
+           name:
+           type: input的各种类型
+           默认选中的话是checked="checked" 
+           -->
+    <form>
+        <label for="username">用户名:</label><input id="username" name="username" type="text" maxlength="8"
+            placeholder="请输入用户名"> <br>
+        密码:<input name="password" type="password"><br>
+        性别: 男<input name="sex" type="radio" checked="checked"> 女 <input name="sex" type="radio"> 人妖 <input name="sex"
+            type="radio"><br>
+        籍贯:<select>
+            <option>山东</option>
+            <option>北京</option>
+            <option selected="selected">江苏</option>
+            <option>青海</option>
+        </select>
+        <br>
+        爱好:吃饭<input name="hobby" type="checkbox" checked="checked"> 睡觉 <input name="hobby" type="checkbox"> 打豆豆 <input
+            name="hobby" type="checkbox"><br>
+        <input type="submit" value="免费注册">
+        <input type="reset" value="重新设置">
+    </form>
+</body>
+
+</html>

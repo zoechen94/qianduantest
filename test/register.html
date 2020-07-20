@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head><title>注册</title> </head>
+    <body>
+      <h1>青春不常在，抓紧谈恋爱</h1>
+      <style>
+          a{
+              text-decoration: none;
+          }
+          .labelagree{
+              color: rgb(141,35,52)
+          }
+      </style>
+      <table>
+         
+              <tr>
+                  <td>性别</td>
+                  <td><input id="male" name="sex" type="radio" checked="checked"><img><label for="male">男</label> 
+                      <input id="female" name="sex" type=radio><img><label for="female">女</label>
+                  </td>
+              </tr>
+              <tr>
+                  <td>生日</td>
+                  <td>
+                      <select name="year">
+                          <option selected="selected">--请选择年--</option>
+                          <option>1970</option>
+                          <option>1971</option>
+                          <option>1972</option>
+                          <option>1973</option>
+                      </select>
+                      <select name="month">
+                        <option selected="selected">--请选择月--</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                    <select name="day">
+                        <option selected="selected">--请选择日--</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                  </td>
+              </tr>
+              <tr>
+                  <td><label for="address">所在地区</label></td>
+                  <td><input type="text" id="address" name="address"></td>
+              </tr>
+              <tr>
+                  <td>婚姻状况</td>
+                  <td>
+                      <input id="no" name="marriage" type="radio" checked="checked"><label for="no">未婚</label>
+                      <input id="yes" name="marriage" type="radio"><label for="yes">已婚</label>
+                      <input id="li" name="marriage" type="radio"><label for="li">离婚</label>
+                  </td>
+              </tr>
+              <tr>
+                  <td><label for="edu">学历</label></td>
+                  <td><input type="text" id="edu" name="edu"></td>
+              </tr>
+              <tr>
+                  <td>喜欢的类型</td>
+                  <td>
+                      <input type="checkbox" id="wumei" name="like" checked="checked"><label for="wumei">妩媚</label>
+                      <input type="checkbox" id="lovely" name="like"><label for="lovely">可爱</label>
+                      <input type="checkbox" id="xiaoxianrou" name="like"><label for="xiaoxianrou">小鲜肉</label>
+                      <input type="checkbox" id="laolarou" name="like"><label for="laolarou">老腊肉</label>
+                      <input type="checkbox" id="alllike" name="like"><label for="alllike">都喜欢</label>
+                  </td>
+              </tr>    
+              <tr>
+                  <td>自我介绍</td>
+                  <td><textarea name="introduce"></textarea></td>
+              </tr>     
+              <tr>
+                  <td></td>
+                  <td><input type="button" value="免费注册"></td>
+              </tr> 
+              <tr>
+                  <td></td>
+                  <td>
+                      <input type="checkbox" name="agree" id="agree">
+                      <label for="agree" class="labelagree">我同意注册条款和会员加入标准</label>
+                  </td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td><a href="#">我是会员，立即登录</a></td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td>
+                      <p>我承诺</p>
+                      <ul>
+                          <li>年满18岁、单身</li>
+                          <li>抱着严肃的态度</li>
+                          <li>真诚寻找另一半</li>
+                      </ul>
+                  </td>
+              </tr>
+      </table>
+    </body>
+</html>

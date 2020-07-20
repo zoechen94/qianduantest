@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 外部样式表 -->
+        <link rel="stylesheet" type="text/css" href="my.css">
+        <!-- 内联样式表 -->
+        <style>
+           th{
+               border:1px solid greenyellow;
+           }
+        </style>
+    </head>
+    <body bgcolor="yellow">
+        <video width="320" height="240" controls="controls">
+            <source src="movie.ogg" type="video/ogg">
+            <source src="movie.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h1  style="text-align: center;">我是h1</h1>
+        <h2>我是h2</h2>
+        <h3>我是h3</h3>
+        <h4>我是h4</h4>
+        <h5>我是h5</h5>
+        <h6>我是h6</h6>
+        <p>请仅仅把标题用于标题文本。不要仅仅为了产生粗体而使用它们它们。请使用其他标签或css代替</p>
+        <img src="https://static-legacy.dingtalk.com/media/lADPGoU8bMC-817NBDbNBDY_1078_1078.jpg" width="300px" height="300px">
+        <div style="background-color: red;" width="200" height="200" title="显示一个红色">
+            红色的背景 
+            <q>被q包围的文字会有双引号</q></br>
+            <abbr>用于缩略词</abbr> </br>
+            <dfn>dfn，会斜着</dfn>
+            <p><kbd>File | Open...</kbd></p>
+            <code>
+                var person = { firstName:"Bill", lastName:"Gates", age:50, eyeColor:"blue" }
+            </code>
+            <br/>
+            <a href="http://www.w3school.com.cn/" target="_blank">Visit W3School!</a><br>
+            <img src="https://static-legacy.dingtalk.com/media/lADPGoU8bMC-817NBDbNBDY_1078_1078.jpg" alt="Big Boat">
+        </br>
+                        <!-- 表格 -->
+            <table style="border: 1px solid greenyellow;">
+                <tr>
+                    <th>表头1</th>
+                    <th>表头2</th>
+                    <th>表头3</th>
+                </tr>
+                <tr>
+                    <td>第一列</td>
+                    <td>第二列</td>
+                    <td>第三列</td>
+                </tr>
+                <tr>
+                    <td>第一列</td>
+                    <td>第二列</td>
+                    <td>第三列</td>
+                </tr>
+            </table>
+            <!-- iframe的用法 frameborder是0意味着删除边框-->
+            <iframe src="buju.html" width="200" height="200" frameborder="0">
+
+            </iframe>
+            <!-- form 表单-->
+            <form action="..接口名" method="POST">
+                <input type="text" list="browsers" value="--" placeholder="请输入"/>
+                <datalist id="browsers">
+                    <option value="FireFox"></option>
+                    <option value="Chrome"></option>
+                    <option value="Opera"></option>
+                    <option value="Safari"></option>
+                </datalist>
+                <input type="radio" name="sex" value="男性"/>男性
+                <input type="radio" name="sex" value="女性"/>女性
+            </br>
+             color:<input type="color"></br>
+             date:<input type="date"></br>
+             datetime:<input type="datetime"></br>
+             datetime-local:<input type="datetime-local"></br>
+             email:<input type="email"></br>
+             month:<input type="month"></br>
+             number:<input type="number"></br>
+             range:<input type="range"></br>
+             search:<input type="search"></br>
+             tel:<input type="tel"></br>
+             time:<input type="time"></br>
+             url:<input type="url"></br>
+             week:<input type="week"></br>
+                             <input type="submit" name="submit" value="提交"/>
+            </form>
+        </br>
+        <select name="sec">
+            <option value="choose1">选择1</option>
+            <option value="choose2">选择2</option>
+            <option value="choose3">选择3</option>
+            <option value="choose4">选择4</option>
+        </select>
+    </br>
+        <video id="video1" src="/Users/yalan/Desktop/html/cat.mp4" width="400" height="300" controls="controls">
+        </video>
+        <button onclick="playorphase()">播放/暂停</button>
+        </div>
+        <audio src="" controls="controls" ></audio>
+    </body>
+    <script>
+        var video=document.getElementById("video1");
+        function playorphase(){
+            if(video.paused){
+                video.play();
+            }else if(video.play){
+                video.pause();
+            }
+        }
+    </script>
+</html>
