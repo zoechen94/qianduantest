@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>小米商城</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            background: #f5f5f5
+        }
+
+        .part {
+            width: 300px;
+            height: 377px;
+            background: #fafafa;
+        }
+        .pic{
+            text-align: center;
+        }
+        img{
+            width:160px;
+            height: 160px;
+            margin-top: 40px;
+        }
+        h1{
+            margin-top: 40px;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+        }
+        .detail{
+            font-size: 14px;
+            color: #b0b0b0;
+            text-align: center;
+            margin-top:15px;
+        }
+        p,h1,.pic{
+            background:#fafafa ;
+        }
+        .price{
+            text-align: center;
+            margin-top:24px
+        }
+        .now{
+            color:#ff7500;
+            background: #fafafa;
+        }
+        /* 兄弟元素 */
+        .now + span{
+            color:#ff7500;
+        }
+        span{
+            background: #fafafa;
+        }
+       .delete{
+            text-decoration:line-through ;
+            color: #b0b0b0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="part">
+        <div class="pic">
+            <img src="../pic/shouji.png" width="160px" height="160px">
+        </div>
+        <h1>小米10青春版5G</h1>
+        <p class="detail">50倍潜望式变焦/轻薄5G手机</p>
+        <p class="price">
+            <span class="now">1899</span><span>起</span>
+            <span class="delete">
+                <span>2099</span>
+                元
+            </span>
+        </p>
+    </div>
+
+</body>
+
+</html>
