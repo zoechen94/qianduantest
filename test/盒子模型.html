@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>盒子模型</title>
+    <style>
+        /* border简写没有顺序需求 */
+        .box1 {
+            width: 250px;
+            height: 130px;
+            border: 10px solid red;
+            border-top: 35px dotted green;
+        }
+
+        .yule {
+            width: 550px;
+            height: 120px;
+            border-collapse: collapse;
+        }
+
+        .yule td,
+        .yule th {
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div style="margin: 0 auto;width: 100%;">
+        <table class="yule" cellspacing="0">
+            <tr>
+                <th>排名</th>
+                <th>关键词</th>
+                <th>趋势</th>
+                <th>进入搜索</th>
+                <th>最近七日</th>
+                <th>相关链接</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>鬼吹灯</td>
+                <td>up</td>
+                <td>456</td>
+                <td>82</td>
+                <td><a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>西游记</td>
+                <td>down</td>
+                <td>456</td>
+                <td>82</td>
+                <td><a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>鬼吹灯</td>
+                <td>up</td>
+                <td>456</td>
+                <td>82</td>
+                <td><a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>鬼吹灯</td>
+                <td>up</td>
+                <td>456</td>
+                <td>82</td>
+                <td><a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
