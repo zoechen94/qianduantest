@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.ceneterwidth{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    margin: 30px auto;
+    height: 42px;
+}
+.logo{
+    float: left;
+    width: 200px;
+    height: 42px;
+}
+.nav{
+    float: left;
+    margin-left: 54px;
+}
+.nav li{
+    float: left;
+    list-style: none;
+    font-size: 18px;
+    color: #050505;
+    padding: 0px 20px;
+    height: 42px;
+    line-height: 42px;
+}
+.nav li:hover{
+    border-bottom: 2px solid #00a4ff;
+}
+.search{
+    float: left;
+    width: 412px;
+    height: 42px;
+    margin-left: 90px;
+}
+.content{
+    float:left;
+    width: 345px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0; 
+    padding-left: 15px;
+    
+}
+
+.search_log{
+    float: right;
+    width: 50px;  
+    height: 42px;
+    border: 0;
+    background: url(../images/fa-search.png);
+}
+.person_detail{
+    float: left;
+    margin-left: 22px;
+}
+.person_header{
+    width: 30px;
+    border-radius: 50%;
+
+}
+.username{
+    float: right;
+    font-size: 14px;
+    color: #7e7e7f;
+
+}
+
+/* course */
+.course_bak{
+    height: 420px;
+    background-color:#1c036c ;
+}
+.course .ceneterwidth{
+    background: url(../images/banner.jpg) no-repeat;
+}
+.kecheng{
+    float: left;
+    padding: 20px;
+    width: 168px;
+    height:380px ;
+    background-color: rgba(19, 1, 75, 0.8);
+}
+.kecheng ul{
+    height: 414px;
+}
+.course ul li{
+    list-style: none;
+    height: 45px;
+    color: #ffffff;
+}
+.kecheng a{
+    float: left;
+}
+.kecheng span{
+    float: right;
+}
+.kecheng ul li:first-child{
+    padding-top: 26px;
+}
+.kecheng ul li:first-child{
+    padding-bottom: 0px;
+}
