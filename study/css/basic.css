@@ -52,7 +52,7 @@
     width: 50px;  
     height: 42px;
     border: 0;
-    background: url(../images/fa-search.png);
+    background: url(../images/fa-search.png) no-repeat top center;
 }
 .person_detail{
     float: left;
@@ -71,37 +71,117 @@
 }
 
 /* course */
-.course_bak{
+.banner{
     height: 420px;
     background-color:#1c036c ;
 }
-.course .ceneterwidth{
-    background: url(../images/banner.jpg) no-repeat;
+.banner .ceneterwidth {
+    height: 420px;
+    background:url(../images/banner.jpg)
 }
 .kecheng{
     float: left;
-    padding: 20px;
     width: 168px;
-    height:380px ;
+    height:393px ;
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 27px;
     background-color: rgba(19, 1, 75, 0.8);
 }
-.kecheng ul{
-    height: 414px;
-}
-.course ul li{
+.kecheng li{
+    padding: 0px 20px;
     list-style: none;
-    height: 45px;
-    color: #ffffff;
+    height: 44px;
 }
-.kecheng a{
-    float: left;
-}
-.kecheng span{
+
+.jian{
     float: right;
 }
-.kecheng ul li:first-child{
-    padding-top: 26px;
+
+.kecheng li:hover{
+    color:#00b4ff ;
 }
-.kecheng ul li:first-child{
-    padding-bottom: 0px;
+
+.ceneterwidth .course{
+    float: right;
+    margin-top: 50px;
+    width: 230px;
+    background-color: #ffffff;
+}
+.course>h1{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #9bceea;
+    font-size: 18px;
+    color: #ffffff;
+}
+.my_course{
+    padding-left: 13px;
+}
+.my_course li{
+    list-style: none;
+    padding: 13px 0 ;
+    border-bottom: 1px solid #eaeaea;
+}
+.my_course p{
+    color: #999999;
+    font-size: 12px;  
+}
+.my_course h1{
+    color: #4e4e4e;
+    font-size: 16px;
+}
+.all_course{
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    margin:5px 15px 12px 15px;
+    color: #00a4ff;
+    font-weight: 700;
+    border: 1px solid #00a4ff;
+}
+.tuijian_bak{
+    width: 100%;
+    background-color:#f3f5f7 ;
+}
+.jingpintuijian{
+    background-color: #ffffff;
+    height: 60px;
+    margin-top: 8px;
+    border-bottom: 1px solid gray;
+}
+.jingpintuijian .tujian{
+    display: block;
+    float: left;
+    padding: 20px 35px 22px 35px;
+    text-align: center;
+    font-weight: 700;
+    font-size:16px;
+    color:#6bbfff;
+}
+.jingpintuijian li{
+    float: left;
+    list-style: none;
+    height: 13px;
+    padding: 24px 35px 24px 15px;
+    border-left: 1px solid gray;
+}
+.jingpintuijian  li a:hover{
+   color:#6bbfff;
+}
+.jingpintuijian li a{
+    font-size: 16px;   
+    display: block;
+}
+.xiugaixingqu{
+    color:#6bbfff;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    float: right;
+    text-align: center;
+    font-size: 14px;
+    padding-right: 14px;
 }
