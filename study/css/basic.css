@@ -4,7 +4,7 @@
 }
 body{
     background-color: #f3f5f7;
-    height: 3000px;
+    height: 5000px;
 }
 /* 清除浮动 */
 .clearfix:before,.clearfix::after{
@@ -237,13 +237,13 @@ body{
      height: 271px;
      margin: 0 16px 14px 0;
  }
- .photo img{
+ .photo img,.biancheng_bottom img,.jiqixuexi img{
      width: 100%;
+     display: block;
  }
- .photo .detail{
-     margin-top: -5px;
-     padding: 25px 20px 30px 25px;
- }
+ .photo .detail,.biancheng_bottom .detail,.jiqixuexi .detail{
+    padding:20px 20px 20px 25px 
+}
  .detail h4{
      font-weight: 400;
      font-size: 14px;
@@ -255,9 +255,12 @@ body{
  .detail span{
      color: #ffb798;
  }
- .biancheng{
-     margin-top: 40px;
- }
+.biancheng {
+    height: 40px;
+    line-height: 40px;
+    background-color: pink;
+    margin-top: 18px;
+}
  .biancheng ul{
      list-style: none;
      float: left;
@@ -276,13 +279,108 @@ body{
 }
 
 /* 编程入门详情 */
-.biancheng_content{
-    width: 228px;
-    height:392px;
+.biancheng_detail{
+    width: 100%;
+    height: 393px;
+    margin-top: 10px;
+}
+.biancheng_detail>img{
     float: left;
+    width: 229px;
+}
+.biancheng_nav_right{
+    float: right;
+    width: 958px;
+    height: 393px;
+}
+.biancheng_nav_right>img{
+    height: 100px;
+}
+.biancheng_bottom{
+    width: 972px;
+    margin-top: 8px;
+}
+
+.biancheng_bottom li{
+    background-color: #fff;
+     list-style: none;
+     float: left;
+     width: 227px;
+     height: 225px;
+     margin: 0 16px 14px 0;
+}
+.shuju{
+    margin-top: 20px;
+}
+
+/* 机器学习 */
+.jiqixuexi{
+    width: 1215px;
+    height: 269px;
+    margin-top:10px;
+}
+.jiqixuexi li{
+    float: left;
+    list-style: none;
+    width: 229px;
+    height: 269px;
+    height: ;
+    margin: 0 14px 0 0;
 
 }
-.content_right{
-    width: 959px;
+.jiqixuexi li>img{
+    width: 229px;
+}
+.detail{
+    background-color: yellow;
+}
+
+/* 底部 */
+.foot{
+    width: 100%;
+    height: 383px;
+    background-color: #fff;
+    margin-top: 40px;
+}
+.foot_left{
+    float: left;
+    width: 470px;
+}
+.foot_left img{
+    display: block;
+    margin-left: 15px;
+}
+.foot_left p{
+    padding: 0 20px;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 25px;
+}
+.foot .ceneterwidth{
+    padding-top: 33px ;
+}
+.foot_left a{
+    display: block;
+    width: 118px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #00a4ff;
+    color: #00a4ff;
+    margin: 15px 0 0 20px;
+}
+.link{
     float: right;
+}
+
+.link dl{
+    float: left;
+    margin-left: 100px;
+}
+.link dl dt{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.link dl dd{
+    font-size: 12px;
 }
