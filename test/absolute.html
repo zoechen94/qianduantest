@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>绝对定位，相对定位,在父亲盒子的中心位</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .center {
+            position: relative;
+            width: 500px;
+            margin: 0 auto;
+            height: 760px;
+            background: grey;
+        }
+        .up {
+            position: absolute;
+            width: 50px;
+            height: 100px;
+            background: indigo;
+            left:50%;
+            top:50%;
+            margin: -50px -25px;
+
+        }
+    </style>
+
+</head> 
+
+<body>
+    <div class="center">
+               <div class="up">
+
+               </div>
+    </div>
+</body>
+
+</html>
