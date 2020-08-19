@@ -218,6 +218,14 @@ body{
    font-weight: 300;
    color: #494949;
 }
+.biancheng_bottom  li{
+    position: relative;
+}
+.biancheng_bottom  li em img {
+    position: absolute;
+    right: -3px;
+    top: 5px;
+}
 .ceneterwidth .info>a,.ceneterwidth .biancheng>a{
     float: right;
     margin-right: 30px;
@@ -237,7 +245,7 @@ body{
      height: 271px;
      margin: 0 16px 14px 0;
  }
- .photo img,.biancheng_bottom img,.jiqixuexi img{
+ .photo img,.biancheng_bottom>img,.jiqixuexi img{
      width: 100%;
      display: block;
  }
