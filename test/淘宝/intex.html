@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>淘宝首页-轮播图</title>
+    <style>
+        *{
+             padding: 0;
+             margin: 0;
+        }
+        .taobao-promo{
+            margin: 20px auto;
+            width: 520px;
+            height: 280px;
+            position: relative;
+        }
+        .taobao-promo img{
+            width: 520px;
+        }
+        .taobao-promo .prev,
+        .taobao-promo .next{
+            /* 加了绝对定位的盒子可以直接加宽度高度 */
+            position: absolute;
+            top:50%;
+            margin-top: -15px;
+            color:white;
+            width: 20px;
+            height: 30px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+        .taobao-promo .prev{
+            left: 0;
+            border-top-right-radius: 50%;
+            border-bottom-right-radius:50% ;
+        }
+        .taobao-promo .next{
+            right: 0;
+            border-top-left-radius: 50%;
+            border-bottom-left-radius:50% ;
+        }
+        .taobao-promo ul{
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            width: 70px;
+            height: 13px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 7px;
+            margin-left: -35px;
+        }
+        .taobao-promo ul li{
+            list-style: none;
+        }
+        .taobao-promo ul li{
+            float: left;
+            width: 8px;
+            height: 8px;
+            background-color: white;
+            border-radius: 50%;
+            margin: 3px;
+
+        }
+        .taobao-promo .selected{
+              background: #ff5000;
+        }
+    </style>
+</head>
+<body>
+    <div class="taobao-promo">
+        <em class="prev">&lt;</em>
+        <img src="images/taobao-promo.jpg"/>
+        <em class="next">&gt;</em>
+        <ul>
+            <li class="selected"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>
