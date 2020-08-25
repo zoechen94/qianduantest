@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS制作三角形</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .triangle{
+            width: 0;
+            height: 0;
+            border-left: 10px solid green;
+            border-right: 10px solid saddlebrown;
+            border-top: 10px solid orangered;
+            border-bottom: 10px solid rebeccapurple;
+        }
+        .shang-triangle{
+            margin: 20px auto;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid green;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+        }
+        .xia-triangle{
+            margin: 20px auto;
+            width: 0;
+            height: 0;
+            line-height: 0;  /* 为了照顾兼容性 */
+            font-size: 0;    /* 为了照顾兼容性 */
+            border: 10px solid transparent;
+            border-top-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="triangle"></div>
+    <div class="shang-triangle"></div>
+    <div class="xia-triangle"></div>
+</body>
+</html>

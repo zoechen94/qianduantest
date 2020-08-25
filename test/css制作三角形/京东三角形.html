@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京东三角形</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        @font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?uwqb28');
+  src:  url('fonts/icomoon.eot?uwqb28#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?uwqb28') format('truetype'),
+    url('fonts/icomoon.woff?uwqb28') format('woff'),
+    url('fonts/icomoon.svg?uwqb28#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.down{
+    font-family: 'icomoon';
+}
+ .center{
+     margin: 0 auto;
+     width: 800px;
+ }
+ .nav{
+     height: 40px;
+     line-height: 40px;
+     background: rgb(171, 173, 173);
+     color:rgb(rgb(114, 110, 110), green, blue);
+ }
+ .nav ul{
+     float: right;
+ }
+ .nav ul li{
+     float: left;
+     list-style: none;
+ }
+ .nav ul li a{
+     font-size: 14px;
+     border-right: 1px solid blueviolet;
+     padding:0px 5px;
+ }
+ .pic-container{
+     position: relative;
+     top: 40px;
+     width: 65px;
+     height: 65px;
+     border: 1px solid rgb(114, 113, 114);   
+ }
+ .pic-container .code{
+     position: absolute;
+     margin: 2px auto;
+ }
+ .shouji-mobile .up{
+     width: 0;
+     height: 0;
+     line-height: 0;     display: block;
+
+     font-size: 0;
+     position: absolute;
+     border: 10px solid transparent;
+     border-bottom-color: white;
+ }
+ .main-up{
+     width: 0;
+     height: 0;
+     line-height: 0;
+     font-size: 0;
+     border: 5px solid transparent;
+     border-bottom-color: royalblue;
+ }
+ .box{
+     position: relative;
+     margin:20px auto;
+     width: 50px;
+     height: 50px;
+     background: royalblue;
+ }
+ .main{
+     margin-top: 5px auto;
+ }
+ .main-up{
+     position: absolute;
+     top: -10px;
+     left: 50%;
+     margin-left: -5px;
+ }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="center">
+            <ul>
+                <li><a>你好，请登录</a>
+                    <a>免费注册</a>
+                </li>
+                <li><a>我的订单</a></li>
+                <li><a>我的京东&nbsp;<span class="down"></span></a></li>
+                <li><a>京东会员</a></li>
+                <li><a>企业采购&nbsp;<span class="down"></span></a></li>
+                <li><a>客户服务&nbsp;<span class="down"></span></a></li>
+                <li><a>网站导航&nbsp;<span class="down"></span></a></li>
+                <li>
+                    <a>手机京东</a>
+                    <div class="pic-container">
+                      <span class="up"></span>
+                      <img class="code" src="images/mobile_qrcode.png" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+           <div class="box">
+            <span class="main-up"></span>
+           </div>  
+    </div>
+</body>
+</html>
