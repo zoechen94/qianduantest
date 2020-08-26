@@ -78,10 +78,10 @@ body{
 .person_header{
     width: 30px;
     border-radius: 50%;
+    vertical-align: middle;
 
 }
 .username{
-    float: right;
     font-size: 14px;
     color: #7e7e7f;
 

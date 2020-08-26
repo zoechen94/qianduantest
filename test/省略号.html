@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>省略号</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        input , textarea {
+            outline: none;   /*取消表单轮廓线*/
+        }
+        textarea{
+            resize: none;/*取消右下角拖动*/
+        }
+        .singleDian{
+            width: 80px;
+            height: 50px;
+            white-space: nowrap; /* 强制一行内显示文本 */
+            overflow: hidden;    /* 超出的部分隐藏*/
+            text-overflow: ellipsis; /*文字用省略号代超出的部分*/
+        }
+
+        .mulitDian{
+            width: 80px;
+            height: 50px;
+            background-color: pink;
+            margin: 100px auto;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /*弹性伸缩盒子模型显示*/
+            display: -webkit-box;
+            /*限制在一个块元素显示的文本的行数*/
+            -webkit-line-clamp: 2;
+            /*设置或检索伸缩盒对象的子元素的排列方式*/
+            -webkit-box-orient: vertical;
+        }
+    </style>
+</head>
+<body>
+    <!-- 单行文本溢出显示省略号 -->
+    <div class="singleDian">
+        我是祖国的花朵,你是吗
+    </div>
+
+    <!-- 多行文本溢出显示省略号，有兼容问题，比较适合移动端webkit-->
+    <div class="mulitDian">
+        我是祖国的花朵，你是吗，你自己知道
+    </div>
+
+    <input>
+    <textarea></textarea> <!--写在一行，避免光标不在一开始-->
+</body>
+</html>

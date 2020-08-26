@@ -20,6 +20,14 @@
   font-style: normal;
   font-display: block;
 }
+.location{
+    float: left;
+    font-size: 14px;
+}
+.location span:first-child{
+    font-family: 'icomoon';
+    color: red;
+}
 .down{
     font-family: 'icomoon';
 }
@@ -39,6 +47,7 @@
  .nav ul li{
      float: left;
      list-style: none;
+     cursor: not-allowed;
  }
  .nav ul li a{
      font-size: 14px;
@@ -47,24 +56,29 @@
  }
  .pic-container{
      position: relative;
-     top: 40px;
      width: 65px;
      height: 65px;
      border: 1px solid rgb(114, 113, 114);   
  }
- .pic-container .code{
+
+ .pic-container .up{
      position: absolute;
-     margin: 2px auto;
- }
- .shouji-mobile .up{
      width: 0;
      height: 0;
-     line-height: 0;     display: block;
-
+     line-height: 0;  
      font-size: 0;
-     position: absolute;
-     border: 10px solid transparent;
+     border: 5px solid transparent;
      border-bottom-color: white;
+     left: 50%;
+     margin-left: -5px;
+     top: -10px;
+ }
+ .pic-container .code{
+     background: url(images/mobile_qrcode.png) no-repeat;
+    width: 95%;
+    height: 95%;
+    margin: 2% auto;
+    display: block;
  }
  .main-up{
      width: 0;
@@ -95,6 +109,10 @@
 <body>
     <div class="nav">
         <div class="center">
+            <div class="location">
+               <span></span>
+               <span>江苏</span> 
+            </div>
             <ul>
                 <li><a>你好，请登录</a>
                     <a>免费注册</a>
@@ -109,7 +127,7 @@
                     <a>手机京东</a>
                     <div class="pic-container">
                       <span class="up"></span>
-                      <img class="code" src="images/mobile_qrcode.png" alt="">
+                      <div class="code"></div>
                     </div>
                 </li>
             </ul>

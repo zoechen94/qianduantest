@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .noneposition li{
+        float: left;
+        list-style: none;
+        width: 150px;
+        height: 150px;
+        border: 1px solid red;
+        margin-left: -1px;
+        }
+        .noneposition li:hover{
+            position: relative;
+            border: 1px solid blue;
+        }
+
+        .position li{
+            position:relative;
+            margin-top: 160px;
+            float: left;
+            list-style: none;
+            width: 150px;
+            height: 150px;
+            border: 1px solid green;
+            margin-left: -1px;
+        }
+        .position li:hover{
+            z-index: 1;
+            border: 1px solid blue;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- 如果 盒子没有定位，那就用一个position-->
+    <ul class="noneposition">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <ul class="position">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+</html>
