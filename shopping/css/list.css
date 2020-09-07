@@ -1,0 +1,184 @@
+.logo{
+    position: relative;
+}
+.logo div{
+    position: absolute;
+    left: 199px;
+    top: 15px;
+    width: 60px;
+    height: 32px;
+    border-left: 1px solid #b1191a;
+    padding-left: 12px;
+}
+.miaoshao{
+    width: 362px;
+    height: 48px;
+}
+
+.miaoshao li{
+    float: left;
+}
+
+.miaoshao li a{
+    font-size: 16px ;
+    font-family: '微软雅黑';
+    font-weight: bold;
+    padding: 0 28px;
+    line-height: 48px;
+    color: #000;
+}
+.nav .tab{
+    width: 838px;
+    height: 48px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.tab li{
+    float: left;
+}
+.tab li a{
+    font-size: 14px;
+    font-family: '微软雅黑';
+    color: #b7b7b7;
+    padding: 0 24px;
+    line-height: 50px;
+}
+.main{
+    position: relative;
+}
+.main .type{
+    height: 122px;
+    text-align: center;
+    padding-top: 28px;
+}
+.main .type span{
+    font-family: '微软雅黑';
+    font-weight: bold;
+    color:#c81523 ;
+}
+.type{
+    width: 300px;
+    margin: 0 auto;
+    height: 88px;
+   }
+.type img{
+    width: 45px;
+    height: 36px;
+    background: url("../upload/ggx.png") no-repeat;
+    vertical-align: middle;
+}
+.type div .qianggou li{
+    float: left;
+    padding: 0 16px;
+}
+.type div{
+    position: relative;
+    height: 40px;
+}
+
+.type .qianggou{
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -130px;
+}
+.type .heng{
+    width: 55px;
+    height: 2px;
+    background: #7a7a7a;
+}
+.type .wenzi{
+    margin-top: -10px;
+}
+.content li{
+   float: left;
+   width: 290px;
+   height: 462px;
+   margin-right: 13px;
+   text-align: center;
+   border:1px solid transparent
+}
+.content li p{
+    text-align: left;
+}
+.content li:hover {
+    border: 1px solid #b1191a;
+}
+.content li:nth-child(4n){
+    margin-right: 0;
+}
+.content li a img{
+    width: 234px;
+    height: 284px;
+    background: url("../upload/iphone.png") no-repeat;
+}
+
+.iphone-wenzi{
+    height: 118px;
+    padding: 12px;
+}
+.iphone-wenzi p:first-child{
+    font-size: 14px;
+    font-family: '宋体';
+    color: #666666;
+}
+.dollor,.price{
+    font-size: 22px;
+    font-family: '微软雅黑';
+    color: #b1191a;
+}
+.delete{
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.num{
+    font-size: 14px;
+    color: #b1191a;
+}
+.clickqiang{
+    margin-top: 9px;
+}
+.clickqiang button{
+    width: 290px;
+    height: 50px;
+    background: #b1191a;
+    color: #ffffff;
+}
+
+.uplink{
+    width: 65px;
+    height: 138px;
+    background: #b1191a;
+    position: absolute;
+    bottom: 200px;
+    left: 1210px;
+    text-align: center;
+    line-height: 68px;
+    color: #ffffff;
+}
+
+
+
+.uplink div:first-child{
+    border-bottom: 1px solid #ffffff;
+}
+.uplink .bef{
+    position: relative;
+}
+.uplink .bef::before{
+    position: absolute;
+    top: -15px;
+    left: 27px;
+    font-family: 'icomoon';
+    content: '\e906';
+    color: #ffffff;
+}
+.uplink div{
+    height: 68px;
+    background:#b1191a ;
+}
+.rabbit i{
+    font-family: 'icomoon';
+    font-size: 25px;
+}
