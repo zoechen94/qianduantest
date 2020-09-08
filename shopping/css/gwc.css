@@ -1,0 +1,86 @@
+.header .gwc_search{
+    position: absolute;
+    top: 27px;
+    right: 0;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+
+.gwc_search button{
+    float: left;
+    width: 80px;
+    height:32px;
+    background: #b1191a;
+    color: #f1f1f1;
+}
+.nav{
+    height: 0;
+    border-bottom: 0;
+    position: relative;
+}
+.nav h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #b1191a;
+}
+
+.content_title{
+    height: 36px;
+    line-height: 36px;
+    border:1px solid #dddddd;
+    background: #f5f5f5;
+}
+.content_title li{
+    float: left;
+}
+.check_all{
+    width: 144px;
+}
+.product{
+    width: 376px;
+}
+.singleprice{
+    width: 152px;
+}
+.nums{
+    width: 226px;
+}
+.total{
+    width: 130px;
+}
+
+.operate{
+    width: 170px;
+}
+.check_all input{
+    vertical-align: middle;
+}
+.check_all span{
+    padding-left: 5px;
+}
+
+.content_title li span{
+   font-size: 12px;
+}
+
+.czbk_hd{
+    width: 1200px;
+    height: 26px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.czbk_hd div:first-child input{
+    vertical-align: middle;
+}
+.czbk{
+    padding-top: 22px;
+}
+.czzy{
+    background: #b1191a;
+    color: #ffffff;
+    padding: 2px;
+}
+.cha{
+    color: #b1191a;
+}
