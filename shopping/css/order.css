@@ -1,0 +1,153 @@
+.header .gwc_search{
+    position: absolute;
+    top: 27px;
+    right: 0;
+    width: 538px;
+    height: 36px;
+}
+.nav{
+    height: 36px;
+    border-bottom: 0;
+}
+.nav h4{
+    font-size: 16px;
+}
+.black_wenzi{
+    padding-top: 20px;
+    padding-left: 24px;
+}
+.gwc_search button{
+    float: left;
+    width: 80px;
+    height:32px;
+    background: #b1191a;
+    color: #f1f1f1;
+}
+
+.main{
+    height: 787px;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 20px 26px 0;
+}
+.first_line{
+    height: 34px;
+}
+.receive_user{
+    height: 117px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.info{
+    height: 32px;
+    line-height: 32px;
+}
+.info li{
+   float: left;
+   padding-left: 12px;
+}
+
+.info li:first-child{
+    border: 2px solid #b1191a;
+    width: 144px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    margin-left: 44px;
+    padding-left: 0;
+}
+
+.more{
+    width: 140px;
+    height: 52px;
+    padding-left: 44px;
+    line-height: 52px
+}
+.more::after{
+    content: '\e906';
+    font-family: 'icomoon';
+}
+.ztd{
+    height: 72px;
+    padding-top: 20px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.ztd .info li:first-child{
+    border:1px solid #e4e4e4;
+}
+.pay{
+    height: 105px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.pay_type{
+    margin-left: 54px;
+    margin-top: 18px;
+}
+.pay_type li{
+    float: left;
+    width: 97px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+}
+.pay_content{
+    height: 70px;
+    line-height: 70px;
+}
+.pay_type li:last-child{
+    margin-left: 10px;
+    border: 2px solid #b1191a;
+}
+.pay p{
+    margin-left: 26px;
+}
+.product_list{
+    height: 58px;
+}
+.kuaidi{
+    height: 102px;
+    background: #f4f4f4;
+}
+.kuaidi .info{
+    margin-top: 16px;
+}
+.kuaidi .info li:last-child{
+    margin-left: 47px;
+}
+.right35{
+    margin-right: 35px;
+}
+.peisong li{
+    float: left;
+    margin-top: 17px;
+}
+.peisong li:first-child{
+    width: 144px;
+    margin-left: 44px;
+}
+.peisong li:last-child{
+    width: 316px;
+    height: 82px;
+    margin-left: 60px;
+}
+.peisong li:last-child p:last-child{
+    margin-top: 28px;
+    color: #b1191a;
+}
+.iphone{
+    height: 152px;
+    background: #feedef;
+}
+.rightul{
+    margin-right: 35px;
+    margin-top: 28px;
+}
+.rightul li{
+    float: left;
+    padding-left: 50px;
+}
+
+.rightul li:first-child{
+    color: #b1191a;
+    font-weight: 700;
+}
