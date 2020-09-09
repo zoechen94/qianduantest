@@ -1,0 +1,121 @@
+.header{
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+    position: relative;
+} 
+.header .logo{
+    position: absolute;
+    top: 16px;
+    width: 175px;
+    height: 56px;
+}
+
+.main{
+    height: 522px;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    margin-top: 22px;
+}
+.main_hd{
+    height: 41px;
+    line-height:40px;
+    padding: 0 12px;
+    border-bottom-style: 1px solid grey;
+    background: #ececec;
+}
+
+.main_hd h4{
+    float: left;
+    font-size: 18px;
+}
+.main_hd p{
+    float: right;
+}
+.main_bd{
+    width: 580px;
+    height: 424px;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+.main_bd ul{
+    height: 226px;
+}
+.main_bd ul li{
+    float: left;
+    height: 36px;
+    margin-bottom: 20px;
+}
+.main_bd ul li:last-child{
+    margin-bottom: 0;
+}
+.main_bd ul li[class="login_degree"]{
+    height: 60px;
+}
+.main_bd ul li label{
+    width: 70px;
+    display: inline-block;
+    text-align: right;
+}
+.error i,.success i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.error i{
+    background: url(../images/error.png) no-repeat;
+}
+.success i{
+    background: url(../images/success.png) no-repeat;
+}
+.error span{
+    color: red;
+} 
+.success span{
+    color: green;
+}
+.main_bd ul li input{
+    width: 240px;
+    height: 36px;
+    border: 1px solid #ececec;
+}
+.main_bd ul li>span{
+    display: inline-block;
+    width: 220px;
+}
+.mima_level{
+    width: 313px;
+    text-align: right;
+    margin-top: 10px;
+}
+.ruo,.zhong,.qiang{
+    padding: 0 10px;
+    margin-right: 1px;
+}
+
+.ruo{
+    background: red;
+}
+.zhong{
+    background: green;
+}
+.qiang{
+    background: orange;
+}
+.agree{
+   padding-left: 84px;
+   margin-top: 40px;
+}
+.register{
+    margin-top: 50px;
+    text-align: center;
+}
+.register button{
+    padding: 10px 71px;
+    background: #c81623;
+    color: #ffffff;
+}
+
+.footer{
+    height: 120px;
+}

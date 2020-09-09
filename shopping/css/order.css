@@ -1,9 +1,20 @@
+.header{
+    position: relative;
+}
 .header .gwc_search{
     position: absolute;
     top: 27px;
     right: 0;
     width: 538px;
     height: 36px;
+    border: 2px solid #b1191a;;
+}
+.gwc_chinese{
+    position: absolute;
+    left: 196px;
+    top: 42px;
+    font-size: 19px;
+    font-family: '微软雅黑';
 }
 .nav{
     height: 36px;
@@ -14,7 +25,14 @@
 }
 .black_wenzi{
     padding-top: 20px;
-    padding-left: 24px;
+    padding-left: 50px;
+}
+.yhq{
+    position: relative;
+    width: 185px;
+    font-size:14px ;
+    padding-top: 20px;
+    padding-left: 50px;
 }
 .gwc_search button{
     float: left;
@@ -150,4 +168,91 @@
 .rightul li:first-child{
     color: #b1191a;
     font-weight: 700;
+}
+.fapiao{
+    height: 122px;
+    border-top: 1px solid #e4e4e4;
+    margin-top: 20px;
+}
+.fapiao ul{
+    padding: 15px 0 15px 70px;
+}
+.fapiao li{
+    float: left;
+}
+.fapiao li span{
+    padding-left: 30px;
+}
+.fapiao li:first-child span{
+    padding-left: 0px;
+}
+
+.yhq::after{
+    content: '\e906';
+    font-family: 'icomoon';
+    position: absolute;
+    right: 20px;
+}
+.jiezhang{
+    height: 265px;
+}
+
+.jiezhang .describe{
+    width: 1174px;
+    padding: 20px 0;
+    height: 96px;
+}
+.desc_left{
+    float: left;
+    width: 1078px;
+    text-align: right;
+    padding-right: 36px;
+}
+.desc_right{
+    float: right;
+    width: 96px;
+    text-align: right;
+}
+
+.print_info{
+    height: 72px;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 18px 0;
+    background:#f4f4f4 ;
+}
+
+.print_desc{
+    text-align: right;
+    padding-right: 12px;
+    width: 1078px;
+}
+.calc{
+    width: 1174px;
+}
+
+.print_price span{
+    color: #b1191a;
+    font-size: 16px;
+    font-family: '微软雅黑';
+}
+.address{
+    width: 1174px;
+    text-align: right;
+}
+.tijiao_order{
+    width: 1174px;
+    margin-top:21px ;
+    text-align: right;
+}
+.tijiao_order button{
+    font-family: '微软雅黑';
+    font-size: 18px;
+    background: #df3033;
+    color: #ffffff;
+    padding: 14px 32px ;
+}
+
+.pay_type .border_none{
+    border-left: 0;
 }
