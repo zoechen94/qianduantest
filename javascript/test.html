@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    //    统计班级学生成绩
+    // var num=prompt("请输入班级人数:");
+    // var sum=0;
+    // for(var i=0;i<num;i++){
+    //    var person=prompt('请输入该学号同学分数:');
+    //    sum+=parseInt(person);  //注意运算加会使用字符串！！
+    // }
+    // var avg=sum*1.0/num;
+    // console.log('班级平均分:'+avg);
+
+
+    //5*5行小星星
+    // var row=prompt("请输入你要的行:");
+    // var col=prompt("请输入列:");
+    // var str="";
+    // for(var i=0;i<row;i++){
+    //     for(var j=0;j<col;j++){
+    //         str=str+"*";
+    //     }
+    //     str+="\n";
+    // }
+    // console.log(str) 
+    //console循环里面一行一行打印，这样显示效果不明显，最好直接拼接str
+
+    // 打印倒三角形
+    var trigger="";
+    for(var i=1;i<=9;i++){
+        for(var j=1;j<=10-i;j++){
+            trigger+="*";
+        }
+        trigger+="\n";
+    }
+    console.log(trigger);
+
+    //乘法口诀
+    var cf_row=9;
+    var cf_col=9;
+    var koujue='';
+    for(var i=1;i<=cf_row;i++){
+        for(var j=1;j<=i;j++){
+            koujue+=j+"*"+i+'='+(i*j)+'\t';
+        }
+        koujue+='\n';
+    }
+    console.log(koujue);
+    //得到100以内尾数是3的数字
+    for(var i=1;i<100;i++){
+        if((i-3)%10==0){
+            console.log("我的个位数是3:"+i);
+        }
+    }
+
+    var money=100;
+    var input;
+    while(input!=4){
+        if(input==1){
+            var value=prompt("请输入存钱金额");
+            money=money+parseFloat(value);
+            alert("你现在的余额是"+money);
+        }else if(input==2){
+            var value=prompt("请输入取钱金额");
+            money=money-value;
+            alert("你现在的余额是"+money);
+        }else if(input==3){
+            alert("你现在还有"+money);
+        }
+        input=prompt("请输入操作按钮");
+    }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
